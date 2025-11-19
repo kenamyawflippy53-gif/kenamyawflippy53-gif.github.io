@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PALEOCLIMATOLOGIA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+      height: 100vh; /* altura completa de la ventana */
+      width: 200px; /* ancho de la barra */
+      position: fixed; /* fijada al lado izquierdo */
+      top: 0;
+      left: 0;
+      background-color: #2c3e50;
+      padding-top: 20px;
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #e84a2e;
+    }
+
+    .content {
+      margin-left: 220px; /* espacio para no tapar contenido */
+      padding: 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: aparecer 1.5s ease forwards;
+      animation-delay: 0.8s;
+    }
+
+    h1, h3, p, img {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: aparecer 1.2s ease forwards;
+    }
+
+    h1 { animation-delay: 0.5s; }
+    h3 { animation-delay: 0.8s; }
+    p  { animation-delay: 1s; }
+    img { animation-delay: 1.3s; }
+
+    @keyframes aparecer {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <a href="index.html">inicio</a>
+    <a href="ciencias.html">Ciencias</a>
+    <a href="eduacion ambiental.html">Educación Ambiental</a>
+    <a href="matematicas.HTML">Matemáticas</a>
+    <a href="espanol.HTML">Español</a>
+    <a href="informatical.html">Informatica</a>
+    <a href="ingles.html">Ingles</a>
+    <a href="educacion fisica.html">Educación Fisica</a>
+  </div>
+
+  <div class="content">
+       <h1 style="text-align: center;">Proyecto STEM</h1>
+       <h1 style="text-align: center;">Paleoclimatologia</h1>
+<h1 style="text-align: center;">Por Harold Torres, Kenally Hernandez, Thaliana Acuña y Valery Achury</h1>
+
+
+       <h3>¿Que es la paleoclimatologia?</h3>
+    <p>La paleoclimatología es una rama de la climatología y la geociencia que se dedica al estudio del clima de la Tierra en el pasado, es decir, antes del registro instrumental moderno. Utiliza registros geológicos, biológicos y químicos para reconstruir condiciones climáticas que existieron hace siglos, milenios o incluso millones de años.
+
+Este estudio permite a los científicos comprender cómo ha cambiado el clima a lo largo del tiempo, qué factores han influido en esos cambios y qué consecuencias han tenido para los ecosistemas, la geografía y la vida en la Tierra. Al entender el clima del pasado, los científicos pueden también hacer mejores predicciones sobre el clima futuro, especialmente en el contexto del cambio climático actual.</p>
+   <img src="https://elfacultativo.com/wp-content/uploads/2023/03/Paleoclimatologia-de-la-Tierra.jpg" width="300" height="200">
+       <h3>¿Por que es importante?</h3>
+    <p>Comprende los cambios climáticos del pasado tiene implicaciones directas para el presente y el futuro. Algunas de las razones por las cuales esta ciencia es fundamental son:
+
+Identificar patrones cíclicos del clima, como los ciclos glaciares e interglaciares.
+
+Diferenciar entre variaciones naturales del clima y aquellas causadas por actividades humanas.
+
+Evaluar la estabilidad del clima global y su capacidad de recuperación después de eventos extremos.
+
+Mejorar los modelos climáticos que se utilizan hoy en día para predecir escenarios futuros.
+
+Además, al estudiar cómo los cambios climáticos pasados afectaron a la biodiversidad, las civilizaciones humanas y los paisajes, podemos entender mejor los riesgos asociados al calentamiento global actual y prepararnos para mitigar sus efectos</p>
+       <h3>Metodos de estudio</h3>
+    <p>Dado que no existen registros meteorológicos antiguos, los paleoclimatólogos utilizan indicadores indirectos, también llamados proxys climáticos, como:
+
+Núcleos de hielo: Cilindros de hielo extraídos de glaciares que contienen burbujas de aire antiguo.
+
+Sedimentos oceánicos y lacustres: Contienen restos de organismos y partículas que informan sobre condiciones pasadas.
+
+Anillos de árboles (dendrocronología): Cada anillo refleja un año de crecimiento y las condiciones climáticas asociadas.
+
+Corales: Registran la temperatura del mar y la química del agua.
+
+Isótopos estables: Usados para analizar la composición química de materiales naturales y deducir temperaturas pasadas.</p>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Egeved.JPG/250px-Egeved.JPG" width="300" height="200">
+   <img src="https://0901.static.prezi.com/preview/v2/mz5otbndvutczidf7hlqldig476jc3sachvcdoaizecfr3dnitcq_3_0.png" width="300" height="200">
+  </div>
+
+</body>
+</html>
